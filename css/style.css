@@ -158,7 +158,7 @@ h5 {
     width: 250px;
 }
 
-/*Accesorios*/
+/*Accesorios
 
 .grid-container {
     display: grid;
@@ -182,6 +182,7 @@ h5 {
 .grid-container img {
     width: 250px;
 }
+ ,
 
 /* Media Querys*/
 
