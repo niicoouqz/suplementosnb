@@ -137,28 +137,7 @@ h5 {
 
 /*Suplementos*/
 
-.grid-container-suplementos {
-    max-width: 850;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    grid-row-gap: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
-.grid-container-suplementos div {
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-}
-
-.grid-container-suplementos img {
-    width: 250px;
-}
 
 /* Media Querys*/
 
