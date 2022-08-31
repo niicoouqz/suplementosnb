@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, white, black);
+}
+
+.header img {
+    width: 250px;
+    transform: translate(10px, 20px);
+    
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header li,
+.footer li {
+    margin: 15px;
+}
+
+.header a,
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover,
+.footer a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: black;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    width: 450;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.main-index h1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.main-index div img {
+    width: 800px;
+    margin-left: 300px;
+}
+
+.main-index div iframe {
+    width: 800px;
+    height: 600px;
+    margin-left: 300px;
+    padding: 50px;
+}
+
+.main-pf h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-pf h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.main-pf p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.main-sobrenosotros {
+       background-color: grey;
+}
+
+.main-sobrenosotros h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-sobrenosotros form {
+    text-align: center;
+    border-style:groove;
+    border-color: brown;
+    background-color: black;
+    width: 400px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.main-sobrenosotros form div {
+    margin: 20px;
+}
+
+.main-sobrenosotros form input {
+    background-color: white;
+    color: black;
+}
+.main-sobrenosotros form div input, textarea {
+     background-color: white;
+     color: black;
+}
+
+
+/*Suplementos*/
+
+
+
+/* Media Querys*/
+
+@media (max-width: 975px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 728px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header img {
+        width: 150px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 470px) {
+    .header ul {
+        flex-direction: column;
+    }
+}
