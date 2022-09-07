@@ -134,10 +134,11 @@ h5 {
      color: black;
 }
 
-
-/*Suplementos*/
-
-
+.card-color{
+    color: red;
+    text-align: center;
+    border-color: white;
+}
 
 /* Media Querys*/
 
