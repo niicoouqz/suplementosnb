@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-index {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, white, black);
+
+    .l-logo {
+        .logo {
+            width: 250px;
+            transform: translate(10px, 20px);
+        }
+    }
+
+    .menu {
+        .menu-ul {
+            list-style: none;
+            display: flex;
+
+            .menu-li {
+                margin: 15px;
+
+                .menu-a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
