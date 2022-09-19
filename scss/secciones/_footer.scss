@@ -1,0 +1,26 @@
+.footer1 {
+    background-color: black;
+
+    .footer-ul{
+        display: flex;
+        list-style: none;
+        width: 450;
+        margin: 10px ;
+        justify-content: center;
+
+        .footer-li{
+            margin: 15px;
+
+            .footer-a{
+                color: white;
+                text-decoration: none;
+
+                &:hover{
+                    color: red;
+                    font-weight: bold;
+                }
+
+            }
+        }
+    }
+}

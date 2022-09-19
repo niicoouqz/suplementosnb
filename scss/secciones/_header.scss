@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.header-index {
+.header1 {
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -22,19 +22,19 @@
         .menu-ul {
             list-style: none;
             display: flex;
-        }
-    }
             .menu-li {
                 margin: 15px;
-            }
                 .menu-a {
                     color: white;
                     text-decoration: none;
+                    
+                    &:hover{
+                         color: red;
+                         font-weight: bold;
+                        }
+                    
                 }
-                 &:hover{
-                    color: red;
-                    font-weight: bold;
-                 }
-        
-    
+            }
+        }
+    }
 }
