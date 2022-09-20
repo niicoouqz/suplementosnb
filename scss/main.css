@@ -53,6 +53,19 @@
   font-weight: bold;
 }
 
+.main-pf .main-pf-h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.main-sobrenosotros {
+  background-color: grey;
+}
+.main-sobrenosotros .main-sobrenosotros-h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .main-index .main-h1 {
   text-align: center;
   margin: 10px;
