@@ -1,0 +1,16 @@
+1- Coloque etiquetas meta keywords en todos los html:
+index: suplementos deportivos, alimentacion, ejercicio, deporte;
+suplementos: proteinas, creatina, aminoacidos, ganadores de peso, quemadores de grasa;
+preguntas frecuentes: faq, preguntas, frecuentes, suplementos deportivos;
+accesorios: mancuernas, bandas elasticas, shaker, botellas termicas, colchonetas;
+sobre nosotros:suplementos deportivos nb, sobre nosotros, contacto;
+
+2- Coloque titulos a todos los html:
+index: inicio;
+suplementos: suplementos;
+accesorios: accesorios;
+preguntas frecuentes: preguntas frecuentes;
+sobre nosotros: sobre nosotros;
+
+3- Coloque favicon a todos los html
+
