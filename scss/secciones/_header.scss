@@ -5,7 +5,7 @@
 }
 
 .header1 {
-    background-color: black;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,6 @@
             .menu-li {
                 margin: 15px;
                 .menu-a {
-                    color: white;
                     text-decoration: none;
                     
                     &:hover{
