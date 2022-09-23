@@ -1,17 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .header1 {
-    
+    background-color: $negro;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(to right, white, black);
 
-    .l-logo {
+    .l-logo { 
         .logo {
             width: 250px;
             transform: translate(10px, 20px);
@@ -23,8 +17,10 @@
             list-style: none;
             display: flex;
             .menu-li {
+                font-family: $tipografia;
                 margin: 15px;
                 .menu-a {
+                    color: $blanco;
                     text-decoration: none;
                     
                     &:hover{

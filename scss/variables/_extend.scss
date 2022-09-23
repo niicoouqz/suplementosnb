@@ -1,0 +1,11 @@
+%estiloParrafo{
+    text-align: center;
+    font-family: $tipografia ;
+    font-size: 20px;
+}
+
+@mixin preguntas {
+    color: blue;
+    font-family: $tipografia;
+    font-size: 25px;
+}

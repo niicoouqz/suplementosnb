@@ -1,4 +1,5 @@
 .footer1 {
+    background-color: $negro;
     
     .footer-ul{
         display: flex;
@@ -8,9 +9,11 @@
         justify-content: center;
 
         .footer-li{
+            font-family: $tipografia;
             margin: 15px;
 
             .footer-a{
+                color: $blanco;
                 text-decoration: none;
 
                 &:hover{

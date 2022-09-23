@@ -3,4 +3,19 @@
         text-align: center;
         margin: 10px;
     }
+    .div1{
+        .div2{
+            .preguntas-h2{
+                .preguntas-h3{
+                  @include preguntas;
+                }
+            }
+                  .div3{
+                .parrafo {
+                    @extend %estiloParrafo;
+            }   }
+        }  
+    }
 }
+
+

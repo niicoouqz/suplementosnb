@@ -14,3 +14,6 @@ sobre nosotros: sobre nosotros;
 
 3- Coloque favicon a todos los html
 
+4- Todas las img estan en archivos que ocupan poco espacio
+
+

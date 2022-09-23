@@ -1,4 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
 @import "./variables/variables";
+@import "./variables/extend";
+/* secciones */
 @import "./secciones/header";
 @import "./secciones/footer";
 @import "./index";
@@ -7,7 +16,7 @@
 @import "./secciones/preguntas-frecuentes";
 @import "./secciones/sobre-nosotros";
 @import "./secciones/card";
-
+/* mediaqueries */
 @import "./mediaqueries";
 
 

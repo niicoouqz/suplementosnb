@@ -1,24 +1,21 @@
-.header1 {
-  background-color: black;
-}
-.header1 .menu .menu-ul .menu-li .menu-a {
-  color: white;
-}
-
-.footer1 {
-  background-color: black;
-}
-.footer1 .footer-ul .footer-li .footer-a {
-  color: white;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* variables */
+/* colores */
+/* tipografia */
+.main-pf .div1 .div2 .div3 .parrafo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/* secciones */
 .header1 {
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,9 +30,11 @@
   display: flex;
 }
 .header1 .menu .menu-ul .menu-li {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 15px;
 }
 .header1 .menu .menu-ul .menu-li .menu-a {
+  color: white;
   text-decoration: none;
 }
 .header1 .menu .menu-ul .menu-li .menu-a:hover {
@@ -43,6 +42,9 @@
   font-weight: bold;
 }
 
+.footer1 {
+  background-color: black;
+}
 .footer1 .footer-ul {
   display: flex;
   list-style: none;
@@ -51,9 +53,11 @@
   justify-content: center;
 }
 .footer1 .footer-ul .footer-li {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 15px;
 }
 .footer1 .footer-ul .footer-li .footer-a {
+  color: white;
   text-decoration: none;
 }
 .footer1 .footer-ul .footer-li .footer-a:hover {
@@ -65,7 +69,11 @@
   text-align: center;
   margin: 10px;
 }
-
+.main-pf .div1 .div2 .preguntas-h2 .preguntas-h3 {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
 .main-sobrenosotros {
   background-color: grey;
 }
@@ -84,6 +92,7 @@
   border-color: white;
 }
 
+/* mediaqueries */
 /*  Header   */
 @media (max-width: 728px) {
   .header1 {
