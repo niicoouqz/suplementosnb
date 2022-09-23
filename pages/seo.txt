@@ -12,8 +12,9 @@ accesorios: accesorios;
 preguntas frecuentes: preguntas frecuentes;
 sobre nosotros: sobre nosotros;
 
-3- Coloque favicon a todos los html
+3- Coloque favicon a todos los html;
 
-4- Todas las img estan en archivos que ocupan poco espacio
+4- Todas las img estan en archivos que ocupan poco espacio;
 
+5- Utilize extend y mixin en la seccion de preguntas frecuentes;
 
