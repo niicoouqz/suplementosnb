@@ -1,22 +1,22 @@
 .footer1 {
     background-color: $negro;
-    
-    .footer-ul{
+
+    .footer-ul {
         display: flex;
         list-style: none;
         width: 450;
-        margin: 10px ;
+        margin: 10px;
         justify-content: center;
 
-        .footer-li{
+        .footer-li {
             font-family: $tipografia;
             margin: 15px;
 
-            .footer-a{
+            .footer-a {
                 color: $blanco;
                 text-decoration: none;
 
-                &:hover{
+                &:hover {
                     color: red;
                     font-weight: bold;
                 }

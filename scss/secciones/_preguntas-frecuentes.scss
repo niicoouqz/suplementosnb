@@ -1,21 +1,22 @@
 .main-pf {
-    .main-pf-h1{
+    .main-pf-h1 {
         text-align: center;
         margin: 10px;
     }
-    .div1{
-        .div2{
-            .preguntas-h2{
-                .preguntas-h3{
-                  @include preguntas;
+
+    .div1 {
+        .div2 {
+            .preguntas-h2 {
+                .preguntas-h3 {
+                    @include preguntas;
                 }
             }
-                  .div3{
+
+            .div3 {
                 .parrafo {
                     @extend %estiloParrafo;
-            }   }
-        }  
+                }
+            }
+        }
     }
 }
-
-

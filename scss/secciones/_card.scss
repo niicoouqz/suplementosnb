@@ -1,12 +1,23 @@
+/* INDEX*/
 .main-index {
-    .main-h1{
+    .main-h1 {
         text-align: center;
         margin: 10px;
     }
 
- .card-color {
-    color: red;
-    text-align: center;
-    border-color: white;
+    .card-color {
+        color: red;
+        text-align: center;
+        border-color: white;
+    }
 }
+
+/* ACCESORIOS*/
+
+.contenedor-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    margin: 20px;
+    background-color: $negro;
 }
