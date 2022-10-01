@@ -71,6 +71,10 @@
 }
 .main-sobrenosotros {
   background-color: grey;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 50px;
 }
 .main-sobrenosotros .main-sobrenosotros-h1 {
   text-align: center;
@@ -96,8 +100,13 @@
   margin: 20px;
   background-color: black;
 }
+.contenedor-card .card .card-body .card-text {
+  font-size: black;
+  text-align: center;
+}
 
 /* mediaqueries */
+/* index*/
 @media (max-width: 728px) {
   .main-index .card iframe {
     height: 300px;
